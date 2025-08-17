@@ -12,7 +12,7 @@ nav,footer{
 /* Glass Effect */
 .glass {
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(0, 0, 0, 0.3);   /* 🔄 Yellow → Black */
   border-radius: 15px;
