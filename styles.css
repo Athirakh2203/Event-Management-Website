@@ -1,17 +1,24 @@
 /* Global Fonts */
-body, nav, footer {
+body {
   font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+nav,footer{
+  font-family: "Montserrat", sans-serif;
+
 }
 
+/* Glass Effect */
 /* Glass Effect */
 .glass {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);   /* 🔄 Yellow → Black */
   border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(255, 223, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);  /* 🔄 Yellow → Black shadow */
 }
+
 
 /* Animations */
 @keyframes fadeUp {
